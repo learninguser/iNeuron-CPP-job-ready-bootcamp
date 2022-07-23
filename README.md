@@ -14,3 +14,4 @@ C++ Job Ready course has been created specifically to familiarize you with the c
 
 ## Assignment Solutions
 [Assignment - 1](https://github.com/learninguser/iNeuron-CPP-job-ready-bootcamp/tree/master/Assignment_1)
+[Assignment - 2](https://github.com/learninguser/iNeuron-CPP-job-ready-bootcamp/tree/master/Assignment_2)
