@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 
 int main(){
     // 1. Write a program to find the Nth term of the Fibonnaci series.
@@ -132,14 +133,21 @@ int main(){
     // }
 
     // 9. Write a program to check whether a given number is an Armstrong number or not
+    // Test cases:  1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474 are armstrong numbers below 10000
     // int a;
     // printf("Enter a number: ");
     // scanf("%d", &a);
     // int original_num = a;
-    // int res = 0, rem = 0;
+    // int res = 0, rem = 0, count = 0;
     // while(a > 0){
     //     rem = a % 10;
-    //     res += (rem * rem * rem);
+    //     a /= 10;
+    //     count += 1;
+    // }
+    // a = original_num;
+    // while(a > 0){
+    //     rem = a % 10;
+    //     res += pow(rem, count);
     //     a /= 10;
     // }
     // if(res == original_num)
