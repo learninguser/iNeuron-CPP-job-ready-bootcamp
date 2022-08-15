@@ -159,10 +159,18 @@ int main(){
     // for(int i = 1; i < 1000; i++){
     //     int original_num = i;
     //     int a = i;
-    //     int res = 0, rem = 0;
+    //     int res = 0, rem = 0, count = 0;
+    //     if (a < 10){
+    //         count = 1;
+    //     }else if(a < 100){
+    //         count = 2;
+    //     }else{
+    //         count = 3;
+    //     }
+        
     //     while(a > 0){
     //         rem = a % 10;
-    //         res += (rem * rem * rem);
+    //         res += pow(rem, count);
     //         a /= 10;
     //     }
     //     if(res == original_num)
